@@ -51,3 +51,78 @@ __Elm__ - функциональный язык, предназначенный 
 "Hello Bob!"
 
 ```
+
+Значения, передаваемые в функцию, обычно называются аргументами, поэтому вы можете сказать: «greet - это функция, которая принимает один аргумент».
+
+Хорошо, теперь, когда с приветствием разобрались, как насчет функции madlib, которая принимает два аргумента?
+
+```
+> madlib animal adjective =
+|     "The ostentatious " ++ animal ++ " wears" ++ adjective ++ " shorts."
+|
+<function>
+
+> madlib "cat" "ergonomic"
+"The ostentatious cat wears ergonomic shorts."
+
+```
+
+### If выражения
+
+```
+
+> greet name =  
+|     if name == "Trump" then
+|         "Greetings Mr. President!"
+|     else 
+|         "Hey!"
+|
+<function>
+
+> greet "Tom"
+"Hey!"
+
+> greet "Trump"
+"Greetings Mr. President!"
+
+```
+
+### Списки (Lists)
+
+Списки являются одной из самых распространенных структур данных в Elm. Они содержат последовательность связанных вещей, похожих на массивы в JavaScript.
+
+Списки могут содержать много значений. Все эти значения должны иметь одинаковый тип. Вот несколько примеров, которые используют функции из модуля List:
+
+```
+
+> names = 
+|     ["Alice", "Bob", "Chuck"]
+|
+["Alice", "Bob", "Chuck"]
+
+> List.isEmpty names
+False
+
+> List.length names
+3
+
+> List.reverse names
+["Chuck", "Bob", "Alice"]
+
+> numbers = 
+|     [4, 3, 2, 1]
+|
+[4, 3, 2, 1]
+
+> List.sort numbers
+[1, 2, 3, 4]
+
+>increment n = 
+|     n + 1
+|
+<function>
+
+> List.map increment numbers
+[5,4,3,2]
+
+```
