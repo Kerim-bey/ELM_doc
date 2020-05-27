@@ -193,4 +193,6 @@ __Step 2:__ Install the "Elm Syntax Highlighting" plugin.
 
 ### Ссылки на материалы
 
-[Официальный сайт ELM] [https://elm-lang.org]
+Официальный сайт ELM: https://elm-lang.org.
+Руководство по инструментарию для начинающих: https://habr.com/ru/post/302154/.
+Курс на GeekBrains: https://geekbrains.ru/posts/elm_lang.
