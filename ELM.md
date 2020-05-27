@@ -191,8 +191,10 @@ __Step 2:__ Install the "Elm Syntax Highlighting" plugin.
 
 Вы можете запустить проект Elm командой elm init
 
-### Ссылки на материалы
+### Полезные ссылки
 
 Официальный сайт ELM: https://elm-lang.org.
+
 Руководство по инструментарию для начинающих: https://habr.com/ru/post/302154/.
+
 Курс на GeekBrains: https://geekbrains.ru/posts/elm_lang.
